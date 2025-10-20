@@ -1,0 +1,61 @@
+<!--
+    Módulo: Desarrollo de Aplicaciones Multiplataforma (DAM)
+    Unidad Didáctica: UD02 Desarrollo web con HTML5 y CSS3
+    Tarea: Tarea evaluativa 2. Sitio web
+    Autor: June Mendigain Sukuntza
+    Fecha: 18/10/2025
+    Enlace a reflexión: 
+-->
+
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <title>Equipos</title>
+        <link rel="stylesheet" href="css\estilos.css"> <!--Link hoja de estilo común-->
+        <link rel="stylesheet" href="css\categorias.css"> <!--Link hoja de estilo específico-->
+    </head>
+
+    <body>
+        <header>
+            <h1>women's CHAMPIONS LEAGUE</h1>
+            <img src="img\logo.png" alt="imagen">
+        </header>
+        
+        <main>
+            <nav> <!--Pestañas de navegación-->
+                <dt>
+                    <dl><a href="index.html">Inicio</a></dl>
+                    <dl><a href="equipos.html">Equipos</a></dl>
+                    <dl><a href="noticias.html">Noticias</a></dl>
+                    <dl><a href="contacto.html">Contacto</a></dl>
+                </dt>
+            </nav>
+
+            <section id="presentacion-equipos"> <!--Equipos-->
+                <h2>Equipos</h2>
+                <div id="equipos"> <!--Etiqueta div aplicar el estilo 'equipos'-->
+                    <a href="categorias\barcelona.html"><img class="section-img" src="img\barcelona.png"></a>
+                    <a href="categorias\arsenal.html"><img class="section-img" src="img\arsenal.png"></a>
+                    <a href="categorias\paris.html"><img class="section-img" src="img\paris.png"></a>
+                    <a href="categorias\lyones.html"><img class="section-img" src="img\lyones.png"></a>
+                    <a href="categorias\chelsea.html"><img class="section-img" src="img\chelsea.png"></a>
+                </div>
+            </section>
+
+            <aside id="aside-noForm"> <!--Próximos partidos-->
+                <h4>Próximos partidos</h4>
+                <p>Valerenga vs Wolfsburg</p>
+                <p>Lyonnes vs St. Polten</p>
+                <p>Roma vs Barcelona</p>
+                <p>OH Leuven vs FC Twente</p>
+                <p>Chelsea vs Paris</p>
+                <p>Atlético de Madrid vs Man Utd</p>
+            </aside>
+        </main>
+
+        <footer>
+            <p>TareaEvaluativaBirtLH  © 2025 by June Mendigain is licensed under CC BY-NC 4.0.</p>
+        </footer>
+    </body>
+</html>

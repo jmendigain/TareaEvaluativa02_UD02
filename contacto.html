@@ -1,0 +1,73 @@
+<!--
+    Módulo: Desarrollo de Aplicaciones Multiplataforma (DAM)
+    Unidad Didáctica: UD02 Desarrollo web con HTML5 y CSS3
+    Tarea: Tarea evaluativa 2. Sitio web
+    Autor: June Mendigain Sukuntza
+    Fecha: 18/10/2025
+    Enlace a reflexión: 
+-->
+
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <title>Contacto</title>
+        <link rel="stylesheet" href="css\estilos.css"> <!--Link hoja de estilo común-->
+        <link rel="stylesheet" href="css\contacto.css"> <!--Link hoja de estilo específico-->
+    </head>
+
+    <body>
+        <header>
+            <h1>women's CHAMPIONS LEAGUE</h1>
+            <img src="img\logo.png" alt="imagen">
+        </header>
+        
+        <main>
+            <nav> <!--Pestañas de navegación-->
+                <dt>
+                    <dl><a href="index.html">Inicio</a></dl>
+                    <dl><a href="equipos.html">Equipos</a></dl>
+                    <dl><a href="noticias.html">Noticias</a></dl>
+                    <dl><a href="contacto.html">Contacto</a></dl>
+                </dt>
+            </nav>
+
+            <section id="presentacion">
+                <h2>Formulario de contacto</h2>
+                <form action="mailto:junemendigain@gmail.com" method="post" enctype="text/plain">
+                    <fieldset>
+                        <label for="fnamenom2">Nombre:</label><br>
+                        <input type="text" id="fnamenom2" name="nombre" placeholder="Nombre" required><br>
+                        <label for="fnameapel2">Apellido:</label><br>
+                        <input type="text" id="fnameapel2" name="apellido" placeholder="Apellido" required><br>
+                        <label for="fnamecor2">Correo:</label><br>
+                        <input type="text" id="fnamecor2" name="correo" placeholder="Correo" required><br>
+                        <label for="fnamesel2">Motivo contacto:</label><br>
+                        <select name="motivo" required>
+                            <option value="" disabled selected>Seleccione una opción</option>
+                            <option value="sugerencia">Sugerencia</option>
+                            <option value="consulta">Consulta</option>
+                            <option value="queja">Queja</option>
+                            <option value="otro">Otro</option>
+                        </select><br>
+                        <label for="fnamecom2">Comentario:</label><br>
+                        <textarea name="mensaje" rows="10" cols="30" placeholder="Escriba aquí su comentario" required></textarea><br>
+                        <input id="boton-envio" type="submit" value="Enviar">
+                    </fieldset>
+                </form>
+                <p>Nos gusta saber vuestra opinión. Podéis ingresar cualquier comentario de mejora, y lo tendremos en cuenta para futuras mejoras.</p>
+            </section>
+
+            <aside id="asideForm"> <!--Enlace a redes sociales-->
+                <h4>Redes sociales</h4>
+                <a href="https://www.facebook.com/?locale=es_ES" target="_blank"><img class="img" src="img\facebook.png" class="img" alt="imagen aside"></a>
+                <a href="https://www.instagram.com/" target="_blank"><img class="img" src="img\instagram.png" class="img" alt="imagen aside"></a>
+                <a href="https://www.youtube.com/" target="_blank"><img class="img" src="img\youtube.png" class="img" alt="imagen aside"></a>
+                <a href="https://www.tiktok.com/es-419/" target="_blank"><img class="img" src="img\tiktok.png" class="img" alt="imagen aside"></a>
+            </aside>
+        </main>
+        <footer>
+            <p>TareaEvaluativaBirtLH  © 2025 by June Mendigain is licensed under CC BY-NC 4.0.</p>
+        </footer>
+    </body>
+</html>

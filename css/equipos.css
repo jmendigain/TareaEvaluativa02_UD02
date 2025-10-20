@@ -1,0 +1,44 @@
+/*
+    Módulo: Desarrollo de Aplicaciones Multiplataforma (DAM)
+    Unidad Didáctica: UD02 Desarrollo web con HTML5 y CSS3
+    Tarea: Tarea evaluativa 2. Sitio web
+    Autor: June Mendigain Sukuntza
+    Fecha: 18/10/2025
+    Enlace a reflexión:
+*/
+
+/*HOJA DE ESTILOS EQUIPOS*/
+
+#estadisticas {
+    font-size: 0.9rem;
+    color: rgb(177, 146, 207);
+    text-indent: 20px;
+}
+
+img {
+    float: inline-end;
+    width: 10%;
+    height: auto;
+    margin-right: 50px;
+}
+
+/*Estilo del botón 'volver'*/
+#volver {
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 5px 10px 5px 10px;
+    float: right;
+}
+
+/*Estilo de enlaces*/
+section a:link {
+	color:white;
+}
+
+section a:visited {
+	 color: white;
+}
+
+section a:hover {
+	color: rgb(201, 31, 116);
+}

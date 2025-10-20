@@ -1,0 +1,127 @@
+/*
+    Módulo: Desarrollo de Aplicaciones Multiplataforma (DAM)
+    Unidad Didáctica: UD02 Desarrollo web con HTML5 y CSS3
+    Tarea: Tarea evaluativa 2. Sitio web
+    Autor: June Mendigain Sukuntza
+    Fecha: 18/10/2025
+    Enlace a reflexión:
+*/
+
+/* HOJA DE ESTILOS GENÉRICO */
+
+/*Estilo del body*/
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+	background-color: rgb(203, 203, 194);
+}
+
+/*Estilo del header*/
+header {
+    background-color: rgb(0, 0, 114);
+	color: #fff;
+	border-radius: 20px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin: 10px 0px 20px 0px;
+	font-size: 150%;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+/*Estilo del aside de las páginas index, noticias, equipos, categorías*/
+#aside-noForm {
+	color: #fff;
+	border-radius: 20px;
+	font-size: 150%;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	padding-left: 50px;
+    background-color: rgb(107, 107, 203);
+	width: 20%;
+	margin-left: 20px;
+}
+
+/*Estilo del section*/
+section {
+	color: #fff;
+	border-radius: 20px;
+	padding: 20px;
+	font-size: 150%;
+	margin: 5px;
+}
+
+/*Estilo imagen del header*/
+header img {
+	width: 150px;
+	height: auto;
+	padding: 0px 0px 0px 50px;
+}
+
+/*Estilo del nav*/
+nav {
+	display: flex;
+	color: #fff;
+	font-size: 150%;
+	margin: 5px;
+	flex-basis: 10%;
+	display: flex;
+	flex-direction: column;
+}
+
+/*Estilo del main*/
+main {
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+}
+
+/*Estilo de la presentación de contacto, index, y noticias*/
+#presentacion {
+    background-color: rgb(56, 56, 132);
+	font-size: 1rem;
+	width: 70%;
+}
+
+/*Estilo dl del contenedor nav*/
+nav dl {
+	margin: 20px;
+	border: 3px solid rgb(80, 78, 78);
+	background-color: rgb(222, 219, 219);
+	padding: 10px 20px 10px 20px;
+	text-align: center;
+	border-radius: 20px;
+	font-size: 1.2rem;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Estilo de texto del contenedor aside*/
+aside p {
+	font-size: 1rem;
+	margin-bottom: 10px;
+	padding: 10px;
+}
+
+/*Estilo del footer*/
+footer {
+	position: fixed;
+    bottom: 0px;
+    left: 0px;
+    width: 90%;
+	text-align: center;
+}
+
+/*Estilo de enlaces*/
+a:link {
+	color:black;
+}
+
+a:visited {
+	 color: black;
+}
+
+ a:hover {
+	color: rgb(201, 31, 116);
+ }
